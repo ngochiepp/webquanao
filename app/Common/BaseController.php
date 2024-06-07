@@ -1,5 +1,5 @@
 <?php
-namespace App\Controller;
+namespace App\Common;//common để chứa những file class cha  dùng chung
 use eftec\bladeone\BladeOne;
 
 class BaseController{

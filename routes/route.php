@@ -1,8 +1,7 @@
 <?php
 
 use Phroute\Phroute\RouteCollector;
-use App\Controller\BaseController;
-use App\Controller\TestController;
+use App\Controllers\TestController;
 
 
 $url = !isset($_GET['url']) ? "/" : $_GET['url'];
