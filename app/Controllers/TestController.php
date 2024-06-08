@@ -10,4 +10,10 @@ class TestController extends BaseController
     {
         return $this->render('list');
     }
+    public function admin()
+    {
+        return $this->render('admin.index');
+    }
+    
+    
 }
