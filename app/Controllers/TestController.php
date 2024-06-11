@@ -6,14 +6,16 @@ use App\Common\BaseController;
 
 class TestController extends BaseController
 {
-    public function home()
+    // public function home()
+    // {
+    //     return $this->render('list');
+    // }
+    // public function admin()
+    // {
+    //     return $this->render('layout.index');
+    // }
+    public function index()
     {
-        return $this->render('list');
+        echo 'alo';
     }
-    public function admin()
-    {
-        return $this->render('admin.index');
-    }
-    
-    
 }
